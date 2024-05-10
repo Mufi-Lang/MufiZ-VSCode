@@ -3,6 +3,7 @@
   "displayName": "MufiZ",
   "description": "Official Language Support for the MufiZ Programming Language",
   "version": "0.0.1",
+  "publisher": "MufiZ",
   "engines": {
     "vscode": "^1.88.0"
   },
