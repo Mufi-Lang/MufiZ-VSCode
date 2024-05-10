@@ -1,0 +1,25 @@
+{
+  "name": "mufiz",
+  "displayName": "MufiZ",
+  "description": "Official Language Support for the MufiZ Programming Language",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.88.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "mufi",
+      "aliases": ["MufiZ", "mufi"],
+      "extensions": [".mufi"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "mufi",
+      "scopeName": "source.mufi",
+      "path": "./syntaxes/mufi.tmLanguage.json"
+    }]
+  }
+}
