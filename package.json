@@ -6,6 +6,10 @@
   "engines": {
     "vscode": "^1.88.0"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Mustafif/MufiZ-VSCode"
+  },
   "categories": [
     "Programming Languages"
   ],
